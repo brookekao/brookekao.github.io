@@ -72,10 +72,10 @@ $color-link: $color-pink;
 $color-linkHover: $color-link;
 
 // Typography and Rhythm
-$fontFamily-body: "mr-eaves-xl-modern", $helvetica;
-$fontFamily-heading: $fontFamily-body;
-$fontFamily-display: "program-narrow", $fontFamily-heading;
-$fontFamily-serif: "mrs-eaves", serif;
+$fontFamily-body: "district-pro", $helvetica;
+$fontFamily-heading: "freight-neo-pro";
+$fontFamily-display: "freight-neo-pro", $fontFamily-heading;
+$fontFamily-serif: "freight-neo-pro", serif;
 
 // Line heights
 $lineHeight-heading: 1.2;
