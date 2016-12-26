@@ -1,5 +1,4 @@
-// mobile menu
-$(document).ready(function() {
+function menuToggle() {
   var menuToggle = $('.js-mobileMenuBtn').unbind();
   $('.js-menu').removeClass("is-shown");
 
@@ -11,5 +10,26 @@ $(document).ready(function() {
       }
     });
   });
+}
+
+function siteHeadScroll() {
+  var previousScroll = 0,
+      headerOrgOffset = $('.siteHead-wrap').height();
+
+  $('.siteHead').height($('.siteHead-wrap').height());
+  $('.siteHead').slideUp();
+  $(window).scroll(function () {
+      var currentScroll = $(this).scrollTop();
+      if (currentScroll < headerOrgOffset *3) {
+        $('.siteHead').slideUp();
+      } else {
+        $('.siteHead').slideDown();
+      }
+      previousScroll = currentScroll;
+  });
+}
+
+$(document).ready(function() {
+  siteHeadScroll();
 });
 

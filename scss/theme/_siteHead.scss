@@ -1,14 +1,3 @@
-.siteHead {
-  @include shift(1);
-  position: fixed;
-  top: 0;
-  z-index: $zIndex-2;
-}
-.siteHead-wrapper {
-  border: none;
-  margin: 0;
-  max-width: none;
-}
 .siteHead-logo {
   border: none;
   margin: 0;
@@ -24,4 +13,15 @@
   margin-top: $space-base;
   vertical-align: middle;
   width: auto;
+}
+.siteHead-wrap {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.siteHead {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: $zIndex-1;
 }

@@ -43,20 +43,32 @@
     <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="siteHead" role="banner">
-      <div class="siteHead-wrapper">
+    <div class="siteHead">
+      <div class="siteHead-wrap clear">
+        <a href="index.html" class="siteHead-logo">
+          <div class="siteHead-logoText">
+            Brooke Kao
+          </div>
+        </a>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- <div class="siteHead" role="banner">
+      <div class="siteHead-wrapper clear">
         <a href="index.html" class="siteHead-logo">
           <div class="siteHead-logoText">
             Brooke Kao
           </div>
         </a>
       </div>
-    </div>
+    </div> -->
     <div class="u-full">
       <header>
         <h1>Brooke Kao is a designer who builds bridges between businesses and users.</h1>
       </header>
-      <section class="u-outerContainer">
+      <section id="basic-waypoint" class="u-outerContainer">
         <article class="article-who--work">
           <h2 class="article-title">Who?</h2>
           <p>
@@ -66,7 +78,7 @@
         <article class="article-who--write">
           <p>
             Aside from doing the work, I also think and sometimes write about processes that help teams work together better.
-            Medium tells me that I was 10% of writers this year, and a bunch of people read my article, <a href="https://thinking.philosophie.is/the-when-why-and-how-of-designing-in-browser-3c7fa2ebcb94?gi=b2cd9c839b28" target="_new">The When, Why, and How of Designing in Browser</a>.
+            Medium tells me that I was 10% of writers this year, and a bunch of people read my article, <a class="link--text" href="https://thinking.philosophie.is/the-when-why-and-how-of-designing-in-browser-3c7fa2ebcb94?gi=b2cd9c839b28" target="_new">The When, Why, and How of Designing in Browser</a>.
           </p>
         </article>
         <article class="article-who--play">
@@ -88,6 +100,8 @@
           <h2 class="article-title">How?</h2>
           <h3>Shipping it</h3>
           <p>I designed, built and validated proof of concept for a electronic and textile recycling service in under one week.</p>
+          <p>
+            See a deck we presented internally at Philosophie on <a href="https://www.slideshare.net/secret/tQzkKSOtJrrisc" target="_blank" class="link--text">SlideShare</a>.
         </article>
       </section>
       <section class="u-outerContainer">
@@ -95,8 +109,8 @@
           <h3>Same team</h3>
           <p>A 100-year-old accounting firm and a 6-year-old software consultancy teamed up to bring innovation to small business owners.</p>
           <p>
-            See a deck I presented at a <a href="https://www.meetup.com/balancedteam-NY/">Balanced Team MeetUp</a>
-            on <a href="https://www.slideshare.net/secret/ket4XFj4zMeyMX">SlideShare</a> or check out a clickable demo on <a href="https://invis.io/2D4X0P3K9">Invision</a>.
+            See a deck I presented at a <a href="https://www.meetup.com/balancedteam-NY/" target="_blank" class="link--text">Balanced Team MeetUp</a>
+            on <a href="https://www.slideshare.net/secret/ket4XFj4zMeyMX" target="_blank" class="link--text">SlideShare</a> or check out a clickable demo on <a href="https://invis.io/2D4X0P3K9" class="link--text">Invision</a>.
           </p>
         </article>
       </section>
@@ -108,7 +122,7 @@
         <article class="article-how--left">
           <p>I’ve facilitated Lean and GV Design Sprint workshops with stakeholders and financial counselors over the past 8 months.</p>
           <p>
-            See a deck I presented at internally at Philosophie on <a href="https://www.slideshare.net/secret/3RmBxoeZiiJVlQ">SlideShare</a> or check out the <a href="http://app.wagegoal.com/" target="_blank">web app</a>.
+            See a deck we presented internally at Philosophie on <a href="https://www.slideshare.net/secret/3RmBxoeZiiJVlQ" target="_blank" class="link--text">SlideShare</a> or check out the <a href="http://app.wagegoal.com/" target="_blank" class="link--text">web app</a>.
           </p>
         </article>
       </section>
@@ -124,10 +138,10 @@
       <section class="u-outerContainer">
         <article>
           <h2>
-            If you're interested in hiring me for contractual work or getting your astrological chart done, <a href="mailto:brooke.kao@gmail.com">contact me</a>.
+            If you're interested in hiring me for contractual work or getting your astrological chart done, <a href="mailto:brooke.kao@gmail.com" class="link--text">contact me</a>.
           </h2>
           <h4>
-            If you're interested in diving deeper without actually having to confront me just yet, check out my <a href="https://medium.com/@brookekao" target="_blank">Medium</a> for writing about tech and other things, <a href="https://www.linkedin.com/in/brooke-kao-3415344a" target="_blank">LinkedIn</a> for job history, and <a href="https://www.instagram.com/brookekao/" target="_blank">Instagram</a> for general stalking.
+            If you're interested in diving deeper without actually having to confront me just yet, check out my <a href="https://medium.com/@brookekao" target="_blank" class="link--text">Medium</a> for writing about tech and other things, <a href="https://www.linkedin.com/in/brooke-kao-3415344a" target="_blank" class="link--text">LinkedIn</a> for job history, and <a href="https://www.instagram.com/brookekao/" target="_blank" class="link--text">Instagram</a> for general stalking.
           </h4>
         </article>
       </section>
@@ -135,6 +149,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="node_modules/waypoints/src/waypoint.js"></script>
     <script src="js/main.js"></script>
     <script src="bower_components/mustache.js/mustache.js"></script>
     <script>
