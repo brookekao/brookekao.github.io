@@ -1,0 +1,28 @@
+.who-img {
+  max-width: 18rem;
+}
+@include media($medium-screen-up) {
+  .who-img {
+    position: absolute;
+  }
+  .img--avatar {
+    left: -15vw;
+    max-width: 10vw;
+    top: 4vw;
+  }
+  .img--panther {
+    right: -15vw;
+    top: 5vw;
+    max-width: 38vw;
+  }
+  .img--code {
+    left: -25vw;
+    max-width: 21vw;
+  }
+  .img--crab {
+    left: -16vw;
+    top: 4vw;
+    max-width: 11vw;
+    transform: rotate(35deg);
+  }
+}

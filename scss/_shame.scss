@@ -45,6 +45,7 @@ a {
   }
 }
 .link--text {
+  white-space: nowrap;
   &:after {
     content: " ";
     position: absolute;
