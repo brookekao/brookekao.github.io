@@ -54,8 +54,12 @@ header {
   @include shift(1);
 }
 .article-who--work {
+  @include span-columns(6);
+  @include shift(1);
+}
+.article-who--write {
   @include span-columns(7);
-  @include shift(4);
+  @include shift(3);
 }
 .article-who--play {
   @include span-columns(6);

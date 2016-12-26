@@ -1429,9 +1429,18 @@ header {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
-  width: 57.3509785009%;
-  margin-left: 34.1192171993%; }
+  width: 48.821174201%;
+  margin-left: 8.5298042998%; }
   .article-who--work:last-child {
+    margin-right: 0; }
+
+.article-who--write {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 57.3509785009%;
+  margin-left: 25.5894128995%; }
+  .article-who--write:last-child {
     margin-right: 0; }
 
 .article-who--play {
