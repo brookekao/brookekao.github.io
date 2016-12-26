@@ -31,7 +31,6 @@ $height--menu: $height--siteHead;
 }
 .menu-itemLink {
   @include transition(color $transition-time $transition-ease);
-  color: $color--menuLinkOnDark;
   &:active,
   &:focus,
   &:hover {

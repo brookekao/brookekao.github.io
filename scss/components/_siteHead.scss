@@ -5,12 +5,9 @@ $height--mobileBtn: $space-base !default;
 
 .siteHead {
   background-color: $color--siteHead;
-  height: $height--siteHead;
 }
 .siteHead-wrapper {
-  @extend .u-outerContainer;
   border-bottom: solid 1px rgba($color--siteHead, .25);
-  height: $height--siteHead;
   position: relative;
 }
 .siteHead-logo {

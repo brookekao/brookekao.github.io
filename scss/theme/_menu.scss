@@ -50,17 +50,4 @@
   display: block;
   height: $height--siteHead;
   padding: 0 $space-base / 3;
-  @include media($mobileMenuBreak) {
-    color: $color-body;
-    &:focus,
-    &:hover {
-      color: $color-pink;
-      transform: rotate(-5deg);
-    }
-  }
-}
-.menu-itemLink--callout {
-  @include media ($mobileMenuBreak) {
-    color: $color-pink;
-  }
 }

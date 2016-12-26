@@ -34,6 +34,7 @@ $color-greenShade: shade($color-green, 20%);
 $color-gold: rgb(213, 194, 132);
 $color-goldTint: tint($color-gold, 50%);
 $color-goldShade: shade($color-gold, 50%);
+$color-azure: #1022DC;
 
 // Unused
 $color-gray: $color-egg;
@@ -104,7 +105,7 @@ $pageTransition-ease: ease-out;
 
 // siteHead
 $color--logoOnDark: $color-white;
-$color--siteHead: $color-white;
+$color--siteHead: transparent;
 $height--siteHead: $space-base * 2.5;
 $height--mobileBtn: $space-base;
 

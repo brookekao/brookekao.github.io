@@ -37,10 +37,10 @@ footer {
   position: relative;
 }
 a {
+  color: $color-azure;
   text-decoration: none;
-  opacity: 0.7;
   &:hover {
-    opacity: 1;
+    color: darken($color-azure, 5%)
   }
 }
 article {
