@@ -761,7 +761,7 @@ input[type="submit"].btn--wide {
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-size: 16px;
   height: 48px;
   line-height: 48px;
@@ -913,152 +913,152 @@ input[type="submit"].btn--wide {
   text-transform: uppercase; }
 
 .font-bodyN1 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 100; }
 
 .font-bodyI1 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 100; }
 
 .font-headingN1 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 100; }
 
 .font-headingI1 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 100; }
 
 .font-subHeadingN1 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 100; }
 
 .font-subHeadingI1 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 100; }
 
 .font-bodyN2 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 200; }
 
 .font-bodyI2 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 200; }
 
 .font-headingN2 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 200; }
 
 .font-headingI2 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 200; }
 
 .font-subHeadingN2 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 200; }
 
 .font-subHeadingI2 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 200; }
 
 .font-bodyN3 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 300; }
 
 .font-bodyI3 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 300; }
 
 .font-headingN3 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 300; }
 
 .font-headingI3 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 300; }
 
 .font-subHeadingN3 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 300; }
 
 .font-subHeadingI3 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 300; }
 
 .font-bodyN4, body {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 400; }
 
-.font-bodyI4, .bubble-quote {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+.font-bodyI4 {
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 400; }
 
 .font-headingN4 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 400; }
 
 .font-headingI4 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 400; }
 
 .font-subHeadingN4 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 400; }
 
 .font-subHeadingI4 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 400; }
 
 .font-bodyN5, .menu-itemLink {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 500; }
 
-.font-bodyI5, .barGraph-label {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+.font-bodyI5 {
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 500; }
 
 .font-headingN5 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 500; }
 
-.font-headingI5, .gridItems--process .gridItems-subtitle {
-  font-family: "freight-neo-pro";
+.font-headingI5 {
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 500; }
 
 .font-subHeadingN5 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 500; }
 
 .font-subHeadingI5 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 500; }
 
@@ -1078,129 +1078,123 @@ button.btn--small,
 input[type="submit"].btn--small,
 .btn--wide,
 button.btn--wide,
-input[type="submit"].btn--wide, strong,
-b, .siteHead-mobileMenuBtn, .barGraph, .barGraph--withNegative {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+input[type="submit"].btn--wide, .siteHead-mobileMenuBtn {
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 600; }
 
 .font-bodyI6 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 600; }
 
-.font-headingN6, .bubble-callout {
-  font-family: "freight-neo-pro";
+.font-headingN6 {
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 600; }
 
 .font-headingI6 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 600; }
 
 .font-subHeadingN6 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 600; }
 
 .font-subHeadingI6 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 600; }
 
 .font-bodyN7 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 700; }
 
 .font-bodyI7 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 700; }
 
-.font-headingN7, h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "freight-neo-pro";
+.font-headingN7 {
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 700; }
 
 .font-headingI7 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 700; }
 
 .font-subHeadingN7 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 700; }
 
 .font-subHeadingI7 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 700; }
 
 .font-bodyN8 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 800; }
 
 .font-bodyI8 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 800; }
 
 .font-headingN8 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 800; }
 
 .font-headingI8 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 800; }
 
 .font-subHeadingN8 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 800; }
 
 .font-subHeadingI8 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 800; }
 
 .font-bodyN9 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: normal;
   font-weight: 900; }
 
 .font-bodyI9 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Work Sans", monospace;
   font-style: italic;
   font-weight: 900; }
 
 .font-headingN9 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: normal;
   font-weight: 900; }
 
 .font-headingI9 {
-  font-family: "freight-neo-pro";
+  font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: 900; }
 
 .font-subHeadingN9 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: normal;
   font-weight: 900; }
 
 .font-subHeadingI9 {
-  font-family: "freight-neo-pro", serif;
+  font-family: "Space Mono", serif;
   font-style: italic;
   font-weight: 900; }
 
@@ -1213,77 +1207,6 @@ body {
   color: black;
   font-size: 16px;
   line-height: 1.5; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: black; }
-
-h1 {
-  font-size: 48.828125px;
-  line-height: 1.2;
-  margin: 0 0 24px; }
-  @media screen and (min-width: 80.0625em) {
-    h1 {
-      font-size: 61.03515625px; } }
-
-h2 {
-  font-size: 39.0625px;
-  line-height: 1.2;
-  margin: 0 0 24px; }
-  @media screen and (min-width: 80.0625em) {
-    h2 {
-      font-size: 48.828125px; } }
-
-h3 {
-  font-size: 31.25px;
-  line-height: 1.2;
-  margin: 0 0 24px; }
-  @media screen and (min-width: 80.0625em) {
-    h3 {
-      font-size: 39.0625px; } }
-
-h4 {
-  font-size: 25px;
-  line-height: 1.2;
-  margin: 0 0 24px; }
-  @media screen and (min-width: 80.0625em) {
-    h4 {
-      font-size: 31.25px; } }
-
-h5 {
-  font-size: 20px;
-  line-height: 1.2;
-  margin: 0 0 24px; }
-  @media screen and (min-width: 80.0625em) {
-    h5 {
-      font-size: 25px; } }
-
-h6 {
-  font-size: 16px;
-  line-height: 1.2;
-  margin: 0 0 24px; }
-  @media screen and (min-width: 80.0625em) {
-    h6 {
-      font-size: 20px; } }
-
-p {
-  margin: 0 0 24px; }
-
-a {
-  color: #e4285e;
-  cursor: pointer;
-  text-decoration: none;
-  -webkit-transition: color 200ms linear;
-  -moz-transition: color 200ms linear;
-  transition: color 200ms linear; }
-  a:active, a:focus, a:hover {
-    color: #e4285e; }
-  a:active, a:focus {
-    outline: none; }
 
 .video-wrapper {
   height: 0;
@@ -1300,13 +1223,9 @@ a {
   height: 100%;
   width: 100%; }
 
-.gridItems, .gridItems--work,
-.gridItems--team,
-.gridItems--creators, .gridItems--process {
+.gridItems {
   position: relative; }
-  .gridItems::after, .gridItems--work::after,
-  .gridItems--team::after,
-  .gridItems--creators::after, .gridItems--process::after {
+  .gridItems::after {
     clear: both;
     content: "";
     display: table; }
@@ -1355,12 +1274,6 @@ a {
   vertical-align: middle;
   margin-right: 4px; }
 
-.siteHead-logoImg:focus img:first-of-type, .siteHead-logoImg:hover img:first-of-type {
-  -webkit-transition: -webkit-transform 500ms linear;
-  -moz-transition: -moz-transform 500ms linear;
-  transition: transform 500ms linear;
-  transform: rotate(360deg); }
-
 .siteHead-mobileMenuBtn {
   border: solid 1px #e4285e !important;
   display: block;
@@ -1373,67 +1286,33 @@ a {
     .siteHead-mobileMenuBtn {
       display: none; } }
 
-h1 {
-  font-family: "freight-neo-pro", "freight-neo-pro"; }
+@media screen and (min-width: 50em) {
+  h3, h4, h5, h6, p {
+    font-size: 2vw; }
 
-h2 {
-  padding: 48px 0 0;
-  margin-bottom: 12px; }
+  h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    font-style: italic; }
 
-h3 {
-  font-family: "district-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-weight: 400; }
+  h2 {
+    font-size: 3vw; } }
+h1, h2 {
+  font-family: "Space Mono", monospace; }
 
-@media screen and (min-width: 48em) {
-  p {
-    font-size: 20px; } }
-
-a {
-  -webkit-transition: border 200ms linear;
-  -moz-transition: border 200ms linear;
-  transition: border 200ms linear;
-  border: solid 1px;
-  padding: 4px 8px; }
-  @media screen and (min-width: 48em) {
-    a {
-      border-bottom: solid;
-      border-left: solid transparent;
-      border-right: solid transparent;
-      border-top: solid transparent;
-      border-width: 1px; }
-      a:hover, a:focus {
-        border-color: #e4285e; } }
-
-.subheading {
-  font-size: 20px; }
-  @media screen and (min-width: 48em) {
-    .subheading {
-      font-size: 31.25px; } }
-
-.u-fitText {
-  display: block; }
-
-.angled:before {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 24px 192px 0 0;
-  border-color: transparent lightgrey transparent transparent;
-  content: '';
-  position: absolute;
-  right: 0;
-  top: -20px; }
-
-.angled:after {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 24px 192px 0 0;
-  border-color: transparent white transparent transparent;
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0px; }
+.article-title {
+  display: inline-block;
+  position: relative;
+  z-index: 0; }
+  .article-title:after {
+    content: " ";
+    width: 110%;
+    height: 1vh;
+    position: absolute;
+    bottom: 1vh;
+    left: 0;
+    background: #d5c284;
+    z-index: -1; }
 
 .menu--right {
   float: none; }
@@ -1497,352 +1376,6 @@ a {
   .menu-itemLink--callout {
     color: #e4285e; } }
 
-.video {
-  max-height: none; }
-
-@media screen and (min-width: 48em) {
-  .gridItems-item {
-    width: 50%; } }
-@media screen and (min-width: 80.0625em) {
-  .gridItems-item {
-    width: 33.3333333333%; } }
-
-@media screen and (min-width: 80.0625em) {
-  .gridItems--work .gridItems-item {
-    min-height: 584px; } }
-
-@media screen and (min-width: 48em) {
-  .gridItems--team .gridItems-item {
-    min-height: 640px; } }
-@media screen and (min-width: 80.0625em) {
-  .gridItems--team .gridItems-item {
-    width: 50%;
-    min-height: 616px; } }
-.gridItems--team .gridItems-imgWrapper {
-  position: relative; }
-.gridItems--team .gridItems-img {
-  height: 120px;
-  width: auto; }
-  @media screen and (min-width: 48em) {
-    .gridItems--team .gridItems-img {
-      height: 159.6px; } }
-  @media screen and (min-width: 80.0625em) {
-    .gridItems--team .gridItems-img {
-      height: 180px; } }
-.gridItems--team .gridItems-overlay {
-  background-color: rgba(23, 22, 57, 0.0625);
-  background-color: rgba(23, 22, 57, 0.0625);
-  background-image: -webkit-linear-gradient(-315deg, rgba(23, 22, 57, 0.0625), rgba(228, 40, 94, 0.125));
-  background-image: linear-gradient(45deg,rgba(23, 22, 57, 0.0625), rgba(228, 40, 94, 0.125));
-  border-radius: 9999px;
-  height: 120px;
-  position: absolute;
-  width: 120px;
-  left: 0; }
-  @media screen and (min-width: 48em) {
-    .gridItems--team .gridItems-overlay {
-      height: 159.6px;
-      width: 159.6px; } }
-  @media screen and (min-width: 80.0625em) {
-    .gridItems--team .gridItems-overlay {
-      height: 180px;
-      width: 180px; } }
-.gridItems--team .gridItems-title {
-  font-size: 25px; }
-.gridItems--team .gridItems-item:nth-of-type(2n) .gridItems-imgWrapper .gridItems-overlay {
-  background-color: rgba(23, 22, 57, 0.0625);
-  background-color: rgba(228, 40, 94, 0.125);
-  background-image: -webkit-linear-gradient(-495deg, rgba(228, 40, 94, 0.125), rgba(117, 235, 191, 0.03625));
-  background-image: linear-gradient(225deg,rgba(228, 40, 94, 0.125), rgba(117, 235, 191, 0.03625)); }
-.gridItems--team .gridItems-item:nth-of-type(3n+2) .gridItems-imgWrapper .gridItems-overlay {
-  background-color: rgba(117, 235, 191, 0.03625);
-  background-color: rgba(117, 235, 191, 0.03625);
-  background-image: -webkit-linear-gradient(-405deg, rgba(117, 235, 191, 0.03625), rgba(23, 22, 57, 0.0625));
-  background-image: linear-gradient(135deg,rgba(117, 235, 191, 0.03625), rgba(23, 22, 57, 0.0625)); }
-.gridItems--team .gridItems-clip--circle {
-  border-radius: 9999px; }
-.gridItems--team .gridItems-subtitle {
-  font-size: 20px;
-  padding: 0;
-  margin-bottom: 12px;
-  text-transform: initial; }
-
-.gridItems--process .gridItems-subtitle {
-  font-size: 20px;
-  padding: 0;
-  margin-bottom: 12px;
-  text-transform: initial; }
-
-.barGraph, .barGraph--withNegative {
-  margin: 48px 0; }
-
-.barGraph-item, .barGraph--withNegative .barGraph-item--negative {
-  margin-bottom: 4px; }
-
-.barGraph-label {
-  display: inline-block;
-  text-align: right;
-  vertical-align: middle;
-  width: 102px; }
-  @media screen and (min-width: 80.0625em) {
-    .barGraph-label {
-      font-size: 20px;
-      line-height: 48px; } }
-
-.barGraph-barWrapper {
-  -webkit-transition: max-width 1.75s ease-in-out;
-  -moz-transition: max-width 1.75s ease-in-out;
-  transition: max-width 1.75s ease-in-out;
-  display: inline-block;
-  left: 12px;
-  max-width: 24px;
-  min-width: 24px;
-  position: relative; }
-  @media screen and (min-width: 80.0625em) {
-    .barGraph-barWrapper {
-      min-width: 27px; } }
-
-.is-grown {
-  max-width: calc(100% - 108px); }
-
-#mustache-channels .barGraph-barWrapper {
-  -webkit-animation: isGrown 1.75s ease-in-out forwards;
-  -moz-animation: isGrown 1.75s ease-in-out forwards;
-  animation: isGrown 1.75s ease-in-out forwards; }
-
-@keyframes isGrown {
-  from {
-    max-width: 24px; }
-  to {
-    max-width: calc(100% - 108px); } }
-.barGraph-bar {
-  background-color: #e4285e;
-  background-color: #75ebbf;
-  background-image: -webkit-linear-gradient(left, #75ebbf, #e4285e);
-  background-image: linear-gradient(to right,#75ebbf, #e4285e);
-  display: inline-block;
-  height: 36px;
-  padding: 0 8px;
-  position: relative;
-  vertical-align: middle;
-  width: 100%; }
-  @media screen and (min-width: 80.0625em) {
-    .barGraph-bar {
-      height: 48px; } }
-
-.barGraph-value {
-  color: rgba(25, 25, 24, 0.65);
-  font-size: 12.8px;
-  line-height: 36px;
-  position: absolute;
-  right: 2px;
-  top: 0; }
-  @media screen and (min-width: 80.0625em) {
-    .barGraph-value {
-      font-size: 16px;
-      line-height: 48px; } }
-
-.barGraph--withNegative {
-  position: relative; }
-  .barGraph--withNegative .barGraph-item, .barGraph--withNegative .barGraph-item--negative {
-    position: relative; }
-  .barGraph--withNegative .barGraph-barWrapper {
-    left: 35%;
-    min-width: 27px; }
-    @media screen and (min-width: 376px) {
-      .barGraph--withNegative .barGraph-barWrapper {
-        left: 36.5%; } }
-    @media screen and (min-width: 768px) {
-      .barGraph--withNegative .barGraph-barWrapper {
-        left: 37%; } }
-    @media screen and (min-width: 80.0625em) {
-      .barGraph--withNegative .barGraph-barWrapper {
-        min-width: 28.5px; } }
-  .barGraph--withNegative .barGraph-item--negative {
-    height: 36px; }
-    @media screen and (min-width: 80.0625em) {
-      .barGraph--withNegative .barGraph-item--negative {
-        height: 48px; } }
-    .barGraph--withNegative .barGraph-item--negative .barGraph-barWrapper {
-      left: auto;
-      position: absolute;
-      right: 35%; }
-      @media screen and (min-width: 376px) {
-        .barGraph--withNegative .barGraph-item--negative .barGraph-barWrapper {
-          right: 36.5%; } }
-      @media screen and (min-width: 560px) {
-        .barGraph--withNegative .barGraph-item--negative .barGraph-barWrapper {
-          right: 46%; } }
-      @media screen and (min-width: 768px) {
-        .barGraph--withNegative .barGraph-item--negative .barGraph-barWrapper {
-          right: 48%; } }
-      @media screen and (min-width: 880px) {
-        .barGraph--withNegative .barGraph-item--negative .barGraph-barWrapper {
-          right: 51.5%; } }
-    .barGraph--withNegative .barGraph-item--negative .barGraph-bar {
-      background-color: #75ebbf;
-      background-image: -webkit-linear-gradient(right, #75ebbf, #005bff);
-      background-image: linear-gradient(to left,#75ebbf, #005bff); }
-    .barGraph--withNegative .barGraph-item--negative .barGraph-value {
-      left: 2px; }
-
-.bubble {
-  background-color: #171639;
-  border-radius: 9999px;
-  height: 288px;
-  left: calc((100% - 288px)*2/3);
-  margin-bottom: 24px;
-  position: relative;
-  width: 288px; }
-  @media screen and (min-width: 48em) {
-    .bubble {
-      left: calc((100% - 288px)*4/5); } }
-  @media screen and (min-width: 80.0625em) {
-    .bubble {
-      height: 432px;
-      left: calc(100% - 288px);
-      width: 432px; } }
-
-.bubble:first-of-type {
-  background-color: #e4285e;
-  left: 1rem; }
-  @media screen and (min-width: 48em) {
-    .bubble:first-of-type {
-      margin-bottom: -192px; } }
-  @media screen and (min-width: 80.0625em) {
-    .bubble:first-of-type {
-      margin-bottom: -288px; } }
-
-@media screen and (min-width: 80.0625em) {
-  .bubble:nth-of-type(2) {
-    margin-left: -48px; } }
-
-.bubble:last-of-type {
-  background-color: #75ebbf;
-  left: calc((100% - 288px)*1/3);
-  padding-top: 16px; }
-  @media screen and (min-width: 48em) {
-    .bubble:last-of-type {
-      margin-top: -72px; } }
-  @media screen and (min-width: 80.0625em) {
-    .bubble:last-of-type {
-      padding-top: 0; } }
-  .bubble:last-of-type .bubble-p {
-    color: rgba(25, 25, 24, 0.8); }
-  .bubble:last-of-type .bubble-quote {
-    color: rgba(25, 25, 24, 0.8); }
-
-.bubble-content {
-  padding: 54px 30px;
-  text-align: center; }
-  @media screen and (min-width: 80.0625em) {
-    .bubble-content {
-      padding: 108px 48px; } }
-
-.bubble-heading {
-  color: rgba(254, 254, 253, 0.9);
-  font-size: 20px; }
-  @media screen and (min-width: 80.0625em) {
-    .bubble-heading {
-      font-size: 31.25px; } }
-
-.bubble-callout {
-  color: rgba(12, 11, 29, 0.4);
-  display: inline-block;
-  font-size: 95.3674316406px;
-  margin: -24px 0;
-  position: relative;
-  z-index: 0; }
-  @media screen and (min-width: 80.0625em) {
-    .bubble-callout {
-      font-size: 119.2092895508px;
-      margin-top: -48px; } }
-
-.callout-span {
-  color: #0c0b1d;
-  display: block;
-  font-size: 20px;
-  left: 50%;
-  margin-left: -72px;
-  position: absolute;
-  top: 62.5%;
-  width: 144px; }
-  @media screen and (min-width: 80.0625em) {
-    .callout-span {
-      font-size: 25px; } }
-
-.bubble-p,
-.bubble-quote {
-  position: relative;
-  z-index: 100; }
-
-.bubble-p {
-  color: rgba(254, 254, 253, 0.8);
-  font-size: 16px; }
-  @media screen and (min-width: 80.0625em) {
-    .bubble-p {
-      font-size: 20px; } }
-
-.bubble-quote {
-  color: rgba(254, 254, 253, 0.9);
-  font-size: 20px; }
-  @media screen and (min-width: 80.0625em) {
-    .bubble-quote {
-      font-size: 31.25px; } }
-
-.confetti-piece {
-  position: absolute;
-  z-index: 200;
-  mix-blend-mode: multiply; }
-
-.piece--ne {
-  right: -16%;
-  top: 4%; }
-  @media screen and (min-width: 48em) {
-    .piece--ne {
-      right: 3%;
-      top: 4%;
-      transform: rotate(0deg);
-      animation: spin-counterclockwise 80s linear infinite; } }
-
-.piece--se {
-  right: 0;
-  top: 20%; }
-  @media screen and (min-width: 48em) {
-    .piece--se {
-      right: 20%;
-      top: 16%;
-      transform: rotate(0deg);
-      animation: spin-counterclockwise 20s linear infinite; } }
-
-.piece--nw {
-  left: -5%;
-  top: 13%; }
-  @media screen and (min-width: 48em) {
-    .piece--nw {
-      left: 4%;
-      top: 9%;
-      transform: rotate(0deg);
-      animation: spin-clockwise 40s linear infinite; } }
-
-.piece--n {
-  left: 50%;
-  top: 0.5%; }
-  @media screen and (min-width: 48em) {
-    .piece--n {
-      transform: rotate(0deg);
-      animation: spin-clockwise 20s linear infinite; } }
-
-@keyframes spin-clockwise {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
-@keyframes spin-counterclockwise {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(-360deg); } }
 html {
   height: 100%; }
 
@@ -1883,8 +1416,58 @@ article,
 footer {
   position: relative; }
 
+a {
+  text-decoration: none;
+  opacity: 0.7; }
+  a:hover {
+    opacity: 1; }
+
 article {
   margin-top: 24px; }
 
 .u-full {
   padding: 48px 0; }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 82.9403914003%;
+  margin-left: 8.5298042998%; }
+  header:last-child {
+    margin-right: 0; }
+
+.article-who--work {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 57.3509785009%;
+  margin-left: 34.1192171993%; }
+  .article-who--work:last-child {
+    margin-right: 0; }
+
+.article-who--play {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+  margin-left: 51.178825799%; }
+  .article-who--play:last-child {
+    margin-right: 0; }
+
+.article-how--left {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%; }
+  .article-how--left:last-child {
+    margin-right: 0; }
+
+.article-how--right {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+  margin-left: 51.178825799%; }
+  .article-how--right:last-child {
+    margin-right: 0; }

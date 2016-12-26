@@ -72,10 +72,10 @@ $color-link: $color-pink;
 $color-linkHover: $color-link;
 
 // Typography and Rhythm
-$fontFamily-body: "district-pro", $helvetica;
-$fontFamily-heading: "freight-neo-pro";
-$fontFamily-display: "freight-neo-pro", $fontFamily-heading;
-$fontFamily-serif: "freight-neo-pro", serif;
+$fontFamily-body: 'Work Sans', monospace;
+$fontFamily-heading: 'Space Mono', monospace;
+$fontFamily-display: 'Space Mono', monospace;
+$fontFamily-serif: 'Space Mono', serif;
 
 // Line heights
 $lineHeight-heading: 1.2;

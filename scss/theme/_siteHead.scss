@@ -26,15 +26,6 @@
   vertical-align: middle;
   margin-right: 4px;
 }
-.siteHead-logoImg {
-  &:focus,
-  &:hover {
-    img:first-of-type {
-      @include transition(transform 500ms $transition-ease);
-      transform: rotate(360deg);
-    }
-  }
-}
 
 // Mobile view
 .siteHead-mobileMenuBtn {
