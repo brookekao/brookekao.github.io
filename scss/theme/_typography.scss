@@ -69,3 +69,32 @@ h4 {
     }
   }
 }
+a {
+  color: $color-azure;
+  text-decoration: none;
+  position: relative;
+  &:hover {
+    color: darken($color-azure, 5%)
+  }
+}
+.link--text {
+  white-space: nowrap;
+  &:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    @include transition(width $transition-time $transition-ease);
+  }
+  &:hover {
+    &:after {
+      content: " ";
+      width: 100%;
+      background-color: $color-azure;
+    }
+  }
+}
+

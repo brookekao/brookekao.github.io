@@ -1,3 +1,14 @@
+html {
+  height: 100%;
+}
+body {
+  background: $color-siteBackground;
+  min-height: 100%;
+  margin: 0;
+  padding: $space-base * 2.5 0 0;
+  position: relative;
+  overflow-x: hidden;
+}
 // text
 .u-textTransformNone {
   text-transform: none;
@@ -81,4 +92,51 @@
 .u-inlineListItem {
   @extend .u-inlineBlock;
   padding-right: $space-base;
+}
+hr {
+  border-bottom: $border-solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $space-base 0;
+}
+.hr--flushBottom {
+  margin-bottom: 0;
+}
+section,
+article,
+footer {
+  position: relative;
+}
+article {
+  margin-top: $space-base;
+}
+.article-who--work {
+  @include media($medium-screen-up) {
+    @include span-columns(6);
+    @include shift(2);
+  }
+}
+.article-who--write {
+  @include media($medium-screen-up) {
+    @include span-columns(7);
+    @include shift(3);
+  }
+}
+.article-who--play {
+  @include media($medium-screen-up) {
+    @include span-columns(6);
+    @include shift(6);
+  }
+}
+.article-how--left {
+  @include media($medium-screen-up) {
+    @include span-columns(6);
+  }
+}
+.article-how--right {
+  @include media($medium-screen-up) {
+    @include span-columns(6);
+    @include shift(6);
+  }
 }

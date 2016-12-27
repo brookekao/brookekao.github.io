@@ -1,5 +1,10 @@
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
 .who-img {
-  max-width: 18rem;
+  max-width: 10rem;
 }
 @include media($medium-screen-up) {
   .who-img {
@@ -22,7 +27,7 @@
   .img--crab {
     left: -16vw;
     top: 4vw;
-    max-width: 11vw;
+    max-width: 14vw;
     transform: rotate(35deg);
   }
 }
