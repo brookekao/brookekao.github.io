@@ -78,7 +78,7 @@ header {
 .article-who--work {
   @include media($medium-screen-up) {
     @include span-columns(6);
-    @include shift(1);
+    @include shift(2);
   }
 }
 .article-who--write {

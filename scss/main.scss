@@ -18,12 +18,10 @@
 // Utilities
 @import "utilities/grid--neat";
 @import "utilities/layout";
-@import "utilities/symbols";
 @import "utilities/visibility";
 
 // Base
 @import "base/lists";
-@import "base/tables";
 @import "base/z-index";
 
 // Vendor
@@ -32,18 +30,9 @@
 // @import "../bower_components/Hover/scss/options";
 // @import "../bower_components/Hover/scss/effects/background-transitions/radial-in";
 
-// Components
-@import "components/arrows";
-@import "components/buttons";
-@import "components/menu";
-@import "components/siteHead";
-@import "components/typography";
-@import "components/gridItems";
-
 // Theme
 @import "theme/siteHead";
 @import "theme/typography";
-@import "theme/menu";
 @import "theme/images";
 
 // No better place yet figured out :'(
