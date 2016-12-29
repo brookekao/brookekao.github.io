@@ -4,6 +4,7 @@ $height--siteHead: $space-base * 3 !default;
 $height--mobileBtn: $space-base !default;
 
 .siteHead {
+  @include shift(1);
   background-color: $color--siteHead;
 }
 .siteHead-wrapper {

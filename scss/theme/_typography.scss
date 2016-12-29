@@ -73,8 +73,9 @@ a {
   color: $color-azure;
   text-decoration: none;
   position: relative;
+  @include transition(color $transition-time $transition-ease);
   &:hover {
-    color: darken($color-azure, 5%)
+    color: darken($color-azure, 20%)
   }
 }
 .link--text {
@@ -94,6 +95,7 @@ a {
       content: " ";
       width: 100%;
       background-color: $color-azure;
+      @include transition(width $transition-time $transition-ease);
     }
   }
 }

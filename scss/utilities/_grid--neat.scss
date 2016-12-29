@@ -1,7 +1,7 @@
 // Containers
 .u-outerContainer {
   @include outer-container;
-  max-width: 150vh;
+  max-width: 78vw;
   margin: modular-scale(4) auto;
   padding: 0 $space-base * .75;
   @include media($medium-screen-up) {

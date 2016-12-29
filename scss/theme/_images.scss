@@ -16,22 +16,23 @@ picture {
 }
 @include media($medium-screen-up) {
   .img--avatar {
-    left: -15vw;
+    left: -17vw;
     max-width: 10vw;
-    top: -2.5vw;
+    top: 0vw;
   }
   .img--panther {
-    right: -11vw;
-    top: 2vw;
-    max-width: 38vw;
+    right: -21vw;
+    top: 3vw;
+    max-width: 36vw;
+    transform: rotate(-15deg);
   }
   .img--code {
-    left: -36vw;
-    top: 7vh;
-    max-width: 30vw;
+    left: -13vw;
+    top: 40vw;
+    max-width: 34vw;
   }
   .img--crab {
-    left: -5vw;
+    left: -7vw;
     top: 13vw;
     max-width: 6vw;
   }
