@@ -3,31 +3,51 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+.img-absolute--mediumUp {
+  @include media($medium-screen-up) {
+    position: absolute;
+  }
+}
 .who-img {
   max-width: 10rem;
 }
+.img--crab {
+  transform: rotate(35deg);
+}
 @include media($medium-screen-up) {
-  .who-img {
-    position: absolute;
-  }
   .img--avatar {
     left: -15vw;
     max-width: 10vw;
-    top: 4vw;
+    top: -2.5vw;
   }
   .img--panther {
-    right: -15vw;
-    top: 5vw;
+    right: -11vw;
+    top: 2vw;
     max-width: 38vw;
   }
   .img--code {
-    left: -25vw;
-    max-width: 21vw;
+    left: -36vw;
+    top: 7vh;
+    max-width: 30vw;
   }
   .img--crab {
-    left: -16vw;
-    top: 4vw;
-    max-width: 14vw;
-    transform: rotate(35deg);
+    left: -5vw;
+    top: 13vw;
+    max-width: 6vw;
+  }
+  .img--cyc {
+    width: 58vw;
+    top: -28vh;
+    right: -21vw;
+  }
+  .img--wagegoal {
+    width: 42vw;
+    top: -9vh;
+    right: -11vw;
+  }
+  .img--pwc {
+    width: 48vw;
+    left: -12vw;
+    top: -7vh
   }
 }

@@ -48,8 +48,5 @@ $height--mobileBtn: $space-base !default;
   top: 0;
   z-index: $zIndex-1;
 }
-header {
-  @include span-columns(10);
-  @include shift(1);
-}
+
 

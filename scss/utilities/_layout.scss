@@ -43,10 +43,34 @@ body {
 .u-bottomless { // change to .u-noMarginTrail
   margin-bottom: 0;
 }
+.u-marginLead-small {
+  margin-top: $space-base / 2;
+  @include media ($medium-screen) {
+    margin-top: $space-base;
+  }
+}
 .u-marginLead {
   margin-top: $space-base;
   @include media ($medium-screen) {
     margin-top: $space-base * 2;
+  }
+}
+.u-marginLead--large {
+  margin-top: $space-base * 2;
+  @include media ($medium-screen) {
+    margin-top: $space-base * 3;
+  }
+}
+.u-marginLead--xlarge {
+  margin-top: $space-base * 4;
+  @include media ($medium-screen) {
+    margin-top: $space-base * 5;
+  }
+}
+.u-marginLead--xxlarge {
+  margin-top: $space-base * 4;
+  @include media ($medium-screen) {
+    margin-top: $space-base * 8;
   }
 }
 .u-paddingLead {
@@ -61,11 +85,26 @@ body {
     margin-bottom: $space-base * 2;
   }
 }
+.u-marginTrail--large {
+  margin-bottom: $space-base * 2;
+  @include media ($medium-screen) {
+    margin-bottom: $space-base * 3;
+  }
+}
+.u-marginTrail--xlarge {
+  margin-bottom: $space-base * 4;
+  @include media ($medium-screen) {
+    margin-bottom: $space-base * 5;
+  }
+}
 .u-paddingTrail {
   padding-bottom: $space-base;
   @include media ($medium-screen) {
     padding-bottom: $space-base * 2;
   }
+}
+.u-position--absolute {
+  position: absolute;
 }
 .u-sidePadding {
   padding-right: $space-base * 2;
@@ -81,52 +120,31 @@ body {
 .u-block {
   display: block;
 }
-.u-currencyField:before {
-  content: "$";
-}
-.u-rarrIndent {
-  margin-left: $space-base;
-  text-indent: -$space-base;
-}
-// lists
-.u-inlineListItem {
-  @extend .u-inlineBlock;
-  padding-right: $space-base;
-}
-hr {
-  border-bottom: $border-solid;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: $space-base 0;
-}
-.hr--flushBottom {
-  margin-bottom: 0;
-}
 section,
 article,
 footer {
   position: relative;
 }
-article {
-  margin-top: $space-base;
+header, .columns--10--centered {
+  @include span-columns(10);
+  @include shift(1);
 }
 .article-who--work {
   @include media($medium-screen-up) {
-    @include span-columns(6);
+    @include span-columns(7);
     @include shift(2);
   }
 }
 .article-who--write {
   @include media($medium-screen-up) {
     @include span-columns(7);
-    @include shift(3);
+    @include shift(6);
   }
 }
 .article-who--play {
   @include media($medium-screen-up) {
-    @include span-columns(6);
-    @include shift(6);
+    @include span-columns(7);
+    @include shift(5);
   }
 }
 .article-how--left {

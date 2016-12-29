@@ -23,6 +23,13 @@
   @extend .u-outerContainer;
   margin: 0 auto;
 }
+.u-outerContainer--expanded {
+  @extend .u-outerContainer;
+  margin: modular-scale(4) auto;
+  @include media($medium-screen-up) {
+    margin: modular-scale(10) auto;
+  }
+}
 .u-row {
   @include row();
   margin-bottom: $space-base;
