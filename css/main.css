@@ -20,7 +20,6 @@ html {
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 78vw;
   margin: 39.0625px auto;
   padding: 0 18px; }
   .u-outerContainer::after, .u-outerContainer--condensed::after, .u-outerContainer--noMargin::after, .u-outerContainer--expanded::after {
@@ -29,6 +28,7 @@ html {
     display: table; }
   @media screen and (min-width: 48em) {
     .u-outerContainer, .u-outerContainer--condensed, .u-outerContainer--noMargin, .u-outerContainer--expanded {
+      max-width: 78vw;
       margin-top: 76.2939453125px;
       margin-bottom: 76.2939453125px;
       padding-right: 24px;
@@ -991,33 +991,51 @@ picture {
   .img-absolute--mediumUp {
     position: absolute; } }
 
-.who-img {
-  max-width: 10rem; }
-
 .img--crab {
-  transform: rotate(35deg); }
+  transform: rotate(-35deg);
+  max-width: 4rem;
+  margin-top: -1rem;
+  position: relative;
+  left: 80vw; }
+  @media screen and (min-width: 48em) {
+    .img--crab {
+      position: absolute;
+      transform: rotate(35deg);
+      left: -7vw;
+      top: 13vw;
+      max-width: 6vw; } }
+
+.img--panther {
+  position: absolute;
+  right: -3rem;
+  top: -11rem;
+  max-width: 11rem;
+  transform: rotate(-15deg); }
+  @media screen and (min-width: 48em) {
+    .img--panther {
+      top: 3vw;
+      max-width: 36vw;
+      right: -21vw; } }
+
+.img--avatar {
+  float: left;
+  max-width: 4.5rem;
+  margin-right: 12px; }
+  @media screen and (min-width: 48em) {
+    .img--avatar {
+      position: absolute;
+      margin-right: 0;
+      float: none;
+      left: -17vw;
+      max-width: 10vw;
+      top: 0vw; } }
 
 @media screen and (min-width: 48em) {
-  .img--avatar {
-    left: -17vw;
-    max-width: 10vw;
-    top: 0vw; }
-
-  .img--panther {
-    right: -21vw;
-    top: 3vw;
-    max-width: 36vw;
-    transform: rotate(-15deg); }
-
   .img--code {
+    position: absolute;
     left: -13vw;
     top: 40vw;
     max-width: 34vw; }
-
-  .img--crab {
-    left: -7vw;
-    top: 13vw;
-    max-width: 6vw; }
 
   .img--cyc {
     width: 58vw;
