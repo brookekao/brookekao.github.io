@@ -679,6 +679,18 @@ body {
     .u-paddingLead {
       padding-top: 48px; } }
 
+.u-paddingLead--large {
+  padding-top: 48px; }
+  @media screen and (min-width: 48em) {
+    .u-paddingLead--large {
+      padding-top: 72px; } }
+
+.u-paddingLead--xlarge {
+  padding-top: 24px; }
+  @media screen and (min-width: 48em) {
+    .u-paddingLead--xlarge {
+      padding-top: 120px; } }
+
 .u-marginTrail {
   margin-bottom: 24px; }
   @media screen and (min-width: 48em) {
@@ -1010,7 +1022,8 @@ picture {
   right: -3rem;
   top: -11rem;
   max-width: 11rem;
-  transform: rotate(-15deg); }
+  transform: rotate(-15deg);
+  z-index: -1; }
   @media screen and (min-width: 48em) {
     .img--panther {
       top: 3vw;
@@ -1030,6 +1043,9 @@ picture {
       max-width: 10vw;
       top: 0vw; } }
 
+.img--code, .img--cyc, .img--wagegoal, .img--pwc {
+  max-width: 65vw; }
+
 @media screen and (min-width: 48em) {
   .img--code {
     position: absolute;
@@ -1039,15 +1055,15 @@ picture {
 
   .img--cyc {
     width: 58vw;
-    top: -28vh;
+    top: -16vw;
     right: -21vw; }
 
   .img--wagegoal {
     width: 42vw;
-    top: -9vh;
+    top: 6vw;
     right: -11vw; }
 
   .img--pwc {
-    width: 48vw;
+    width: 44vw;
     left: -12vw;
-    top: -7vh; } }
+    top: 1vw; } }

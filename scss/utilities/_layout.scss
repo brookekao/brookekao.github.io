@@ -79,6 +79,18 @@ body {
     padding-top: $space-base * 2;
   }
 }
+.u-paddingLead--large {
+  padding-top: $space-base * 2;
+  @include media ($medium-screen) {
+    padding-top: $space-base * 3;
+  }
+}
+.u-paddingLead--xlarge {
+  padding-top: $space-base;
+  @include media ($medium-screen) {
+    padding-top: $space-base * 5;
+  }
+}
 .u-marginTrail {
   margin-bottom: $space-base;
   @include media ($medium-screen) {

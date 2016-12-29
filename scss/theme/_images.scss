@@ -28,6 +28,7 @@ picture {
   top: -11rem;
   max-width: 11rem;
   transform: rotate(-15deg);
+  z-index: -1;
   @include media($medium-screen-up) {
     top: 3vw;
     max-width: 36vw;
@@ -47,6 +48,9 @@ picture {
     top: 0vw;
   }
 }
+.img--code, .img--cyc, .img--wagegoal, .img--pwc {
+  max-width: 65vw;
+}
 @include media($medium-screen-up) {
   .img--code {
     position: absolute;
@@ -56,17 +60,17 @@ picture {
   }
   .img--cyc {
     width: 58vw;
-    top: -28vh;
+    top: -16vw;
     right: -21vw;
   }
   .img--wagegoal {
     width: 42vw;
-    top: -9vh;
+    top: 6vw;
     right: -11vw;
   }
   .img--pwc {
-    width: 48vw;
+    width: 44vw;
     left: -12vw;
-    top: -7vh
+    top: 1vw
   }
 }
