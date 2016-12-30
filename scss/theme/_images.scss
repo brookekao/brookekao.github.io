@@ -17,8 +17,8 @@ picture {
   @include media($medium-screen-up) {
     position: absolute;
     transform: rotate(35deg);
-    left: -7vw;
-    top: 13vw;
+    left: -6vw;
+    top: 12vw;
     max-width: 6vw;
   }
 }

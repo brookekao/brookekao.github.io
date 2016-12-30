@@ -849,12 +849,13 @@ dl {
   font-weight: 700;
   color: black;
   border-bottom: 0.5vh solid #d5c284;
-  background-color: white; }
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .siteHead-logoText {
-  margin-top: 24px;
+  margin-top: 12px;
   vertical-align: middle;
-  width: auto; }
+  width: auto;
+  padding: 0 6px; }
 
 .siteHead-wrap {
   width: 100%;
@@ -1013,8 +1014,8 @@ picture {
     .img--crab {
       position: absolute;
       transform: rotate(35deg);
-      left: -7vw;
-      top: 13vw;
+      left: -6vw;
+      top: 12vw;
       max-width: 6vw; } }
 
 .img--panther {

@@ -31,12 +31,13 @@ $height--mobileBtn: $space-base !default;
   font-weight: 700;
   color: $color-black;
   border-bottom: 0.5vh solid $color-gold;
-  background-color: $color-white;
+  background-color: rgba($color-white, 0.5);
 }
 .siteHead-logoText {
-  margin-top: $space-base;
+  margin-top: $space-base/2;
   vertical-align: middle;
   width: auto;
+  padding: 0 $space-base/4;
 }
 .siteHead-wrap {
   width: 100%;
