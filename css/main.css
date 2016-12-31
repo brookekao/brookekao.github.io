@@ -602,15 +602,16 @@ html {
   .u-pull12Large {
     margin-left: -102.3576515979%; } }
 html {
-  height: 100%; }
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; }
 
 body {
   background: white;
   min-height: 100%;
   margin: 0;
   padding: 60px 0 0;
-  position: relative;
-  overflow-x: hidden; }
+  position: relative; }
 
 .u-textTransformNone {
   text-transform: none; }

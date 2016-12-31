@@ -1,5 +1,7 @@
 html {
+  width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   background: $color-siteBackground;
@@ -7,7 +9,6 @@ body {
   margin: 0;
   padding: $space-base * 2.5 0 0;
   position: relative;
-  overflow-x: hidden;
 }
 // text
 .u-textTransformNone {
